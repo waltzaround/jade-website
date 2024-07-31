@@ -28,6 +28,7 @@ body {
   max-width: 900px;
   font-weight: 200;
   letter-spacing: -1px;
+  color: #343434;
 }
 
 .navigation {
@@ -107,6 +108,7 @@ body {
 .tag {
   margin-top: 0.5rem;
   padding: 0.25rem 0.75rem;
+  background-color: #ebebeb;
   border-radius: 12px;
   width: fit-content;
   align-items: center;
@@ -123,4 +125,12 @@ body {
 p.tag-text {
   margin: 0;
   font-size: 1rem;
+}
+.feature-icon {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 0.5rem;
+}
+.feature-win {
+  margin: 0;
 }
