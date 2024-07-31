@@ -1,0 +1,76 @@
+* {
+  font-family: "DM Mono", monospace;
+
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+}
+
+.hero {
+  max-width: 1400px;
+  margin: 3rem;
+  height: 80vh;
+  max-height: 800px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  letter-spacing: -2.5px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.hero p {
+  font-size: 1.5rem;
+  line-height: 1.75;
+  max-width: 900px;
+  font-weight: 200;
+  letter-spacing: -1px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: blue;
+}
+.navigation nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.featured {
+  margin: 0 auto;
+}
+
+.featured-header {
+  padding: 3rem;
+  padding-bottom: 0;
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: -1px;
+  border-top: 1px solid black;
+}
+
+.featured-project {
+  max-width: 1600px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  margin: 3rem;
+}
+
+.featured-img {
+  width: 100%;
+  height: auto;
+  object-fit: scale-down;
+  background-color: pink;
+}
