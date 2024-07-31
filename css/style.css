@@ -66,13 +66,14 @@ body {
   border: 1px solid #000;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
   margin: 3rem;
-  border-radius: 1rem;
+  border-radius: 7px;
   overflow: hidden;
 }
 
 .featured-img {
   width: 100%;
   height: auto;
+  max-height: 400px;
   object-fit: scale-down;
   background-color: pink;
 }
@@ -101,4 +102,25 @@ body {
   border-top: 1px solid lightgray;
   padding-top: 1rem;
   margin: 0;
+}
+
+.tag {
+  margin-top: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  width: fit-content;
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+.tag-signal {
+  height: 12px;
+  width: 12px;
+  background-color: green;
+  border-radius: 1200px;
+}
+p.tag-text {
+  margin: 0;
+  font-size: 1rem;
 }
